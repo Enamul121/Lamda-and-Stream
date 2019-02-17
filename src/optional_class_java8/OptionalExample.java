@@ -41,9 +41,9 @@ public class OptionalExample {
         System.out.println("Is value present: " + value.isPresent());
 
 
-        System.out.println("orElse: " + value.orElse("Value is not present"));
+        System.out.println("orElse : " + value.orElse("Value is not present"));
 
-        System.out.println("orElse: " + empty.orElse("Value is not present"));
+        System.out.println("orElse : " + empty.orElse("Value is not present"));
 
         value.ifPresent(System.out::println);
 
